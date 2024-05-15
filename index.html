@@ -3,9 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HPV</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/imgs/favicon-32x32.png">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <div class="container-fluid" style="text-align: center;">
     
+        <h1 id="el_01">Willkommen bei der Holzpoltervermessung!</h1>
+        <img src="/imgs/hpv_logo.jpg" alt="Holzpoltervermessung" id="logo">
+        <h3 id="el_02">Geben Sie hier Ihre Daten ein:</h3>
+
+    <input type="text" id="wBesitzer" placeholder="Waldbesitzer"><input type="text" id="ort" placeholder="Ort"><input type="text" id="polterNr" placeholder="Polter-Nr."><br>
+    <button onclick="newDoc()">Neue Holzliste</button><br>
+    <div id="zusammen">
+        <p id="neuDoku">Hauptdaten:</p>
+        <p id="haupt1">Besitzer:</p>
+        <p id="haupt2">Ort:</p>
+        <p id="haupt3">Pol-Nr.:</p>
+    </div>
+    <div>
+        <input type="text" id="eingabeBreite" placeholder="Polterbreite">
+        <p id="massBreite">Die Polterbreite ist...</p>
+        <button onclick="newBr()">Ok</button>
+    </div>
+    <div>
+        <input type="text" id="hoehen" placeholder="">
+    </div>
+</div>
+
+
+<script src="index.js"></script>
 </body>
 </html>
