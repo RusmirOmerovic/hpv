@@ -117,8 +117,10 @@ width: 96%;
     body {
         background-image: url(imgs/mountains.jpg);
         background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         background-position: center;
-        padding: 2px;
+        padding: 1px;
         
     }
     
