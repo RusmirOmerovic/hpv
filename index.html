@@ -15,21 +15,29 @@
         <img src="imgs/hpv_logo.jpg" alt="Holzpoltervermessung" id="logo">
         <h3 id="el_02">Geben Sie hier Ihre Daten ein:</h3>
 
-    <input type="text" id="wBesitzer" placeholder="Waldbesitzer"><input type="text" id="ort" placeholder="Ort"><input type="text" id="polterNr" placeholder="Polter-Nr."><br>
+    <input type="text" id="besitzerEingabe" placeholder="Waldbesitzer"><input type="text" id="ortEingabe" placeholder="Ort"><input type="text" id="polterEingabe" placeholder="Polter-Nr."><br>
     <button onclick="newDoc()">Neue Holzliste</button><br>
     <div id="zusammen">
         <p id="neuDoku">Hauptdaten:</p>
-        <p id="haupt1">Besitzer:</p>
-        <p id="haupt2">Ort:</p>
-        <p id="haupt3">Pol-Nr.:</p>
+        <p id="besitzer">Besitzer:</p>
+        <p id="ort">Ort:</p>
+        <p id="polterNr">Pol-Nr.:</p>
     </div>
     <div>
+        <img src="imgs/hp.jpg" alt="Holzpolter" id="holzBild"><br>
         <input type="text" id="eingabeBreite" placeholder="Polterbreite">
         <p id="massBreite">Die Polterbreite ist...</p>
         <button onclick="newBr()">Ok</button>
     </div>
     <div>
-        <input type="text" id="hoehen" placeholder="">
+        <input type="text" id="hoehen" placeholder="Höhenwerte"><Button width="20px" onclick="zufuegenHoehe()">+</Button><Button id="minusButton" onclick="entfernenHoehe()">-</Button><button onclick="berechnen()">berechnen</button><br>
+        <p id="gemHoehen">Gemessene Höhen:</p>
+        <p id="durchschnittHoehe"><img src="imgs/durchschnitt.png" alt="durchschnitt" width="20px">&nbsp;Durchschnittshöhe:</p><br>
+        <button>Ergebnis</button>
+        <h3 id="ergebnis" onclick="ergebnis()"></h3>
+    </div>
+    <div>
+
     </div>
 </div>
 
