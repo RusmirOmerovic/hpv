@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-image: url(imgs/mountains.jpg);
     background-size: cover;
@@ -280,6 +286,7 @@ mark {
     #ausgabeMengen {display: none;}
     body {
         background-color: none;
+        min-height: 100vh;
     }
     #zusammenfassung {
         height: 100%;
@@ -431,6 +438,7 @@ mark {
         #ausgabeMengen {display: none;}
         body {
             background-color: none;
+            min-height: 100vh;
         }
         #zusammenfassung {
             height: 100%;
