@@ -278,6 +278,9 @@ mark {
     #eingabeBreite {display: none;}
     #minusButton {display: none;}
     #ausgabeMengen {display: none;}
+    body {
+        background-color: none;
+    }
     #zusammenfassung {
         margin-top: -150px;
         background-color: rgb(255, 255, 255);
