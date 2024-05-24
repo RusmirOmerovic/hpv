@@ -82,7 +82,7 @@ function berechneErgebnis() {
     <p id="zeilen"><span id="span">Holz von: ${x} / bei: </mark>${y}</span></p>
     <p id="zeilen"><span id="span2">Polter-Nr.: ${z}</span><br>
     ${gemHoehen.innerText}<br>
-    <mark>Durchschnittshöhe: </mark>${finalSum.toFixed(2)} -- <mark>Breite: </mark>${breite} -- <mark>Länge: </mark>${laenge}  =>  <mark>Raummeter: </mark>${raummeter} rm -- <mark>Festmeter: </mark>${festmeter.toFixed(2)} fm</p>
+    <mark>Durchschnittshöhe: </mark>${finalSum.toFixed(2)} -- <mark>Breite: </mark>${breite} -- <mark>Länge: </mark>${laenge}  =>  <mark>Raummeter: </mark>${raummeter.toFixed(2)} rm -- <mark>Festmeter: </mark>${festmeter.toFixed(2)} fm</p>
     
     `
 
