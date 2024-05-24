@@ -285,7 +285,7 @@ mark {
         margin-left: -10px;
         margin-right: -10px;
         margin-bottom: -50px;
-        margin-top: -150px;
+        margin-top: -170px;
         background-image: none !important;
     }
 
@@ -437,7 +437,7 @@ mark {
             background-color: rgb(255, 255, 255);
             font-size: 3rem;
             
-            margin-top: -170px;
+            margin-top: -190px;
             margin-left: -20px;
             border-top: 10px solid rgb(12, 48, 11);
             background-image: none !important;
