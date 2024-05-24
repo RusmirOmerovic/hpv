@@ -285,6 +285,7 @@ mark {
         font-size: 3rem;
         padding: 20px 20px 20px 20px;
         margin-top: -150px;
+        background-image: none !important;
     }
 
     #briefkopf {
@@ -438,6 +439,7 @@ mark {
             margin-top: -170px;
             margin-left: -20px;
             border-top: 10px solid rgb(12, 48, 11);
+            background-image: none !important;
         }
     
         #briefkopf {
