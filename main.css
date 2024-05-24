@@ -351,9 +351,10 @@ mark {
     body {
         background-image: url(imgs/mountains.jpg);
         background-size: cover;
-        
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         background-position: center;
-        background-repeat: repeat;
+        background-color: rgb(46, 21, 3);
     }
     
     #el_01 {
