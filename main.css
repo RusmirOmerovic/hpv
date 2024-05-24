@@ -284,10 +284,6 @@ mark {
     #eingabeBreite {display: none;}
     #minusButton {display: none;}
     #ausgabeMengen {display: none;}
-    body {
-        background-color: none;
-        min-height: 100vh;
-    }
     #zusammenfassung {
         height: 100%;
         width: 100%;
@@ -436,10 +432,6 @@ mark {
         #eingabeBreite {display: none;}
         #minusButton {display: none;}
         #ausgabeMengen {display: none;}
-        body {
-            background-color: none;
-            min-height: 100vh;
-        }
         #zusammenfassung {
             height: 100%;
             width: 100%;
