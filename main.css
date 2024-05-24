@@ -5,6 +5,7 @@ body {
     background-attachment: fixed;
     background-position: center;
     min-height: 100vh;
+    background-color: rgb(46, 21, 3);
 }
 
 #el_01 {
