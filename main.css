@@ -360,22 +360,18 @@ mark {
     }
     
     #el_01 {
-        font-size: 2.2rem;
+        font-size: 2rem;
         color: whitesmoke;
         text-align: center;
         
     }
 
     #el_02 {
-        font-size: 2.2rem;
+        font-size: 2rem;
         color: whitesmoke;
         text-align: center;
     }
-    #el_03 {
-        font-size: 2.1rem;
-        color: whitesmoke;
-        text-align: center;
-    }
+   
     
     input {
         
