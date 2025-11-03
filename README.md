@@ -10,7 +10,7 @@ Dieses Tool dient der schnellen, mobilen Aufnahme von Holzpoltern: Länge, Breit
 - Abschluss: JavaScript-Printfunktion erstellt eine PDF-ähnliche Druckansicht zur Archivierung oder Weitergabe.  
 - Minimalistisch, praktisch – Fokus auf Nutzbarkeit statt Extra-Features.  
 
-![smartphone-ansicht](imgs/mobile-ansicht.png)
+![smartphone-ansicht](imgs/HPV.pdf)
 
 ## 🧰 Technologie-Stack  
 - HTML5 + CSS3  
